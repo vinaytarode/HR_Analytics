@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated at runtime (Phase 2+)
+database/employees.db
+
+# Trained artifacts (Phase 3+; regenerate with scripts/train_model.py)
+models/*.pkl
+models/feature_columns.json
+models/encoding_metadata.json
+models/training_report.json
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
